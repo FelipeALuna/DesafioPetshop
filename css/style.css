@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
+html{
+    width: 100vw;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #757575;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    max-width: 100%;
+}
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFBE51;
+    
+    position: fixed;
+
+}
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+
+header nav ul.container{
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    flex-wrap: wrap;
+    list-style-type: none;
+}  
+header nav ul.container a{
+    color: #fff;
+    text-decoration: none;
+    margin: 1em;
+
+}
+section.inicio-topo{
+    margin: 200px 10px;
+    align-items: center;
+}
+section.inicio-topo .container{
+    justify-content: space-between;
+    align-items: center;
+}
+section.inicio-topo .container article.inicio-topo-texto{
+    font-weight: 800;
+    font-size:2rem;
+    width: 50%;
+}
+section.inicio-mid {
+
+    width: 100vw;
+    
+    padding: 80px 10px;
+    align-items: center;
+    background-color: #e5e5e5;
+
+}
+section.inicio-mid .container h2{
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 400;
+    flex-wrap: wrap;
+}
+section.inicio-mid .container {
+    padding: 20px;
+}
+.imagem-produtos{
+    border: none;
+    width: 264px;
+    height: 264px;
+    background-image: url(../img/como-dar-banho-em-cachorro2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+section.inicio-mid .container article.banho-tosa div.imagem-produtos{
+    background-image: url(https://lh3.googleusercontent.com/proxy/63MpfWVASeEfrSgmbcNkaBikNrm4WWQrLHmJ3YGPI3f8oGWbjNyEOOVPEi_Qb4eFXEKUuFMSLvKPE1XVT0Z9l79iXElZyEIZzIAi5ncwWp_pJhkruWShsVS66A);
+}
+section.inicio-mid .container article.consulta-vet div.imagem-produtos{
+    background-image: url(https://www.petlove.com.br/dicas/wp-content/uploads/2017/08/shutterstock_227711668.jpg);
+}
+section.inicio-mid .container article h3{
+    font-size:25px;
+    font-weight: 700;
+    color: #000000;
+    height:34,1px;
+    margin: 10px auto;
+}
+section.inicio-mid .container article p{
+    font-size: 25px;
+    font-weight: 25px;
+    color: #000000;
+}
+section.inicio-end {
+    margin: 80px auto;
+}
+section.inicio-end .container{
+    padding: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+section.inicio-end .container article{
+    width: 50%;
+}
+section.inicio-end .container article h2{
+    font-size: 27px;
+    font-weight: bold;
+}
+section.inicio-end .container article h2{
+    font-size: 18px;
+    font-weight:400;
+    margin: 20px 0;
+}
+footer{
+    background-color: #FFBE51;
+    width: 100vw;
+    position: table;
+}
+footer p{
+    color:#000000;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px;
+    display:inline-block;
+}
+footer .container{
+    justify-content: space-between;
+}
+footer img{ 
+    width: 28%;
+    margin: 0;
+
+}
+footer article{
+    width: 50%;
+    padding:30px;
+    margin: 0 auto;
+}
+footer .contato{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0
+}
+footer .contatos{
+    width: 50%;
+    align-items: center;
+    padding: 80px;
+}
+footer iframe{
+    display:  inline-block;
+    width: 100%;
+    height:257px;
+    border: none;
+}
+@media (max-width: 1234px) {
+   
+    section.inicio-topo .container article{
+        margin: 10px;
+    }
+    section.inicio-topo .container article.inicio-topo-texto{
+        width: 100%;
+        
+    }
+    section.inicio-topo .container{
+        justify-content: center;
+        align-items: center;
+        padding: 60px
+        
+    }
+    section.inicio-mid .container{
+        padding:80px;
+    }
+    section.inicio-end  .container{
+        align-items: center;
+        justify-content: center;
+    }
+    section.inicio-end  .container article{
+        width: 100%;
+    }
+}
+@media(max-width:482px){
+    .imagem-produtos{
+        width:385px;
+    }
+
+}
